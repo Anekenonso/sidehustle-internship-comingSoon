@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .bgimg {
+    /* Background image */
+    background-image: url('./image3.jpg');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: 100%;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: rgb(8, 161, 8);
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+  }
+  
+  /* Position text in the top-left corner */
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the bottom-left corner */
+  .bottomleft {
+    position: absolute;
+    bottom: 30%;
+    left: 16px;
+    align-items: center;
+  }
+  
+  .middle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+
+  a{
+      text-decoration: none;
+      color: rgb(8, 161, 8);
+
+  }
